@@ -1,0 +1,272 @@
+
+/********** Navigation **********/
+
+header {
+	background: #000;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .9em;
+	font-weight: lighter;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	width: 8.5%;
+	height: 9.5%;
+}
+
+a:hover {
+	color: #aaa;
+	transition: .2s;
+}
+
+header ul {
+	padding: 5px 0;
+	padding-left: 3.5%;
+	margin: 0px auto;
+	padding-bottom: 10px;
+	width: 80%;
+	height: 30px;
+}
+
+header li {
+	list-style: none;
+	width: 8.5%;
+	display: inline-block;
+	padding-top: 3px;
+	padding-right: 11px;
+}
+
+.listbag {
+	padding-right: 0px;
+	width: 5.5%;
+}
+
+.apple-logo {
+	width: 20px;
+	height: 19.5px;
+}
+
+.search {
+	width: 17px;
+	height: 17px;
+}
+
+.bag {
+	width: 14px;
+	height: 18px;
+}
+
+
+
+/********** Center Image **********/
+
+
+body {
+	margin: 0;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#centerimage {
+	height: 800px;
+	background: url('../img/iphone.jpg') center;
+	background-size: cover;
+	margin-bottom: 3px;
+}
+
+h1 , h2 {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 60px;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: lighter;
+}
+
+
+/********** Picture List **********/
+
+
+.pictures{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 200px;
+	list-style: none;
+}
+
+.pictures li {
+	float: left;
+	width: 25%;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.made {
+	background: url('../img/made_by_apple.jpg') center;
+}
+
+.ipad {
+	background: url('../img/ipad_pro.jpg') center;
+}
+
+.airpods {
+	background: url('../img/airpods.jpg') center;
+}
+
+.tv {
+	background: url('../img/apple_tv.jpg') center;
+}
+
+/********** Bottom Links **********/
+
+
+#bottomlists {
+	background: #eee;
+	padding: 0 6%;
+	width: 88%;
+}
+
+#bottomlists ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bottomlists li {
+	height: 18px;
+	margin-top: 3px;
+}
+
+#bottomlists a {
+	color: #555;
+	font-size: .7em;
+	text-decoration: none;
+}
+
+#bottomlists a:hover {
+	color: #555;
+	font-size: .7em;
+	text-decoration: underline;
+}
+
+.bot {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.5%;
+	padding: 2.5%;
+	padding-left: 4%; 
+	margin-top: 0%;
+}
+
+.business {
+	margin-top: 25px;
+}
+
+h3 {
+	font-size: 0.7em;
+	color: #444;
+	margin: 0;
+	margin-top: 10px;
+	text-align: left;
+}
+
+
+/********** Footer **********/
+
+footer {
+	color: #555;
+	background: #eee;
+	height: 10%;
+	font-size: .85em;
+}
+
+footer p {
+	margin: 0;
+	font-size: .75em;
+	text-indent: 13%;
+	margin-bottom: 5px;
+}
+
+footer a {
+	color: steelblue;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: black;
+}
+
+hr {
+	width: 75%;
+	margin: auto;
+	color: #ccc;
+	margin-left: 13%;
+}
+
+footer ul {
+	padding-left: 13%;
+	margin-top: 5px;
+}
+
+footer li {
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+	height: 15px;
+
+}
+
+
+footer li a{
+	font-size: .7em;
+	vertical-align: top;
+	width: 100%;
+	margin-right: 10px;
+	padding-right: 10px;
+	color: #444;
+	border-right: solid 2px #ccc;
+}
+
+footer li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+.usa {
+	padding-left: 14%;
+}
+
+.usa a {
+	border: none;
+	vertical-align: middle;
+}
+
+.usa img {
+	padding: 3px;
+	vertical-align: middle;
+}
+
+.map a {
+	border: none;
+}
+
+footer img {
+	height: 13px;
+	width: 13px;
+}
+
+.copy {
+	width: 300px;
+	text-indent: 0;
+}
